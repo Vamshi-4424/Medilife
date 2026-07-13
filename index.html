@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HealthCare Appointment</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>🏥 HealthCare</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#appointment">Appointment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="glass">
+        <h1>Book Your Doctor Appointment Online</h1>
+        <p>Fast • Easy • Secure</p>
+        <button onclick="scrollToAppointment()">Book Now</button>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        We provide quality healthcare services with experienced doctors.
+        Book appointments quickly and easily.
+    </p>
+</section>
+
+<section id="doctors">
+
+<h2>Our Doctors</h2>
+
+<div class="doctor-container">
+
+<div class="card">
+<img src="https://via.placeholder.com/150">
+<h3>Dr. John Smith</h3>
+<p>Cardiologist</p>
+<p>Experience: 10 Years</p>
+<button>Book</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/150">
+<h3>Dr. Sarah Lee</h3>
+<p>Dermatologist</p>
+<p>Experience: 8 Years</p>
+<button>Book</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/150">
+<h3>Dr. David</h3>
+<p>Neurologist</p>
+<p>Experience: 12 Years</p>
+<button>Book</button>
+</div>
+
+</div>
+
+</section>
+
+<section id="appointment">
+
+<h2>Book Appointment</h2>
+
+<form id="appointmentForm">
+
+<input
+type="text"
+id="name"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email"
+required>
+
+<input
+type="tel"
+id="phone"
+placeholder="Phone"
+required>
+
+<select id="doctor">
+
+<option>Select Doctor</option>
+
+<option>Dr. John Smith</option>
+
+<option>Dr. Sarah Lee</option>
+
+<option>Dr. David</option>
+
+</select>
+
+<input
+type="date"
+id="date"
+required>
+
+<input
+type="time"
+id="time"
+required>
+
+<button type="submit">
+Book Appointment
+</button>
+
+</form>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>📍 Green Hospital, Hyderabad</p>
+
+<p>📞 +91 9876543210</p>
+
+<p>✉ healthcare@email.com</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 HealthCare Appointment System</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
